@@ -1,0 +1,24 @@
+/* start header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__logo {
+    height: 60px;
+  }
+}
